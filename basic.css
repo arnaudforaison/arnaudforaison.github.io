@@ -1,0 +1,46 @@
+:root {
+  --primary-color: white;
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  /* Font size defined by: https://www.modularscale.com/?16&px&1.125 */
+  --small-fs: 0.889em; 
+  --base-fs: 1em;
+  --medium-fs: 1.266em;
+  --large-fs: 1.602em;
+  --xlarge-fs: 1.802em;
+}
+
+/* GLOBAL STYLE */
+body {
+  background-color: #353b48;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: var(--base-fs);
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+li {
+    margin: 0 0.5rem;
+}
+
+/* ELEMENT STYLE */
+
+/* ----- HEADER -----*/
+header {
+    width: 100%;
+    height: 30px;
+    padding: 0.5rem 0.2rem;
+}
+
+header ul {
+    justify-content: flex-end;
+    font-size: var(--small-fs);
+}
