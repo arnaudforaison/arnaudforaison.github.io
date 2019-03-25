@@ -1,0 +1,4 @@
+baseURL = "http://arnaudforaison.github.io/"
+languageCode = "en-us"
+title = "Arnaud Foraison | Personal Website"
+theme = "Palenque"

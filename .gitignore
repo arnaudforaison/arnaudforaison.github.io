@@ -2,3 +2,6 @@ _site
 node_modules
 *.sublime-workspace
 .sass-cache
+
+resources
+public
