@@ -1,0 +1,41 @@
+.homepage {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  & > img {
+    height: $avatar-size;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  .social-network {
+    width: $avatar-size;
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+      height: 2em;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2em 0 3em;
+
+    .name {
+      font-family: $primary-font-family;
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .job {
+      font-family: $secondary-font-family;
+      font-size: 1.3em;
+      font-style: italic;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+nav {
+  background-color: $main-color;
+  font-family: $secondary-font-family;
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
+    
+    font-size: 1.1em;
+    height: $header-height;
+
+    &-item {
+      margin: 0 1em;
+      font-size: .9em;
+
+      a:hover {
+        font-weight: bold;
+        font-size: 1.05em;
+      }
+    }
+  }
+}

@@ -1,3 +1,11 @@
 {{- define "main"}}
-    <h3>Titre single page</h3>
+    <section class="single-page">
+        <article>
+            <header>
+                <h3>{{ .Title }}</h3>
+            </header>
+
+            {{ .Content }}
+        </article>
+    </section>
 {{- end}}

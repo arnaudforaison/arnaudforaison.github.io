@@ -1,0 +1,12 @@
+.single-page {
+  background-color: $white-color;
+  color: $black-color;
+  padding: 3em;
+
+  header {
+    color: $main-color;
+    border-bottom: 2px solid $main-color;
+    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+  }
+}

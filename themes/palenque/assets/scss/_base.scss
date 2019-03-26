@@ -1,0 +1,73 @@
+:root {
+  --background-color: #{$main-color};
+}
+
+body,
+ul,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: $white-color;
+  font-family: $text-font-family;
+  height: 100vh;
+  display: grid;
+  grid-template: $header-height 1fr #{$footer-height} / 1fr;
+}
+
+a {
+  text-decoration: none;
+  color: $white-color;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primary-font-family;
+}
+
+// Scale font size with Perfect Fourth ration (1.333)
+h1 {
+  font-size: 5.61rem;
+}
+
+h2 {
+  font-size: 4.209rem;
+}
+
+h3 {
+  font-size: 3.157rem;
+}
+
+h4 {
+  font-size: 2.369rem;
+}
+
+h5 {
+  font-size: 1.777rem;
+}
+
+h6 {
+  font-size: 1.333rem;
+}
